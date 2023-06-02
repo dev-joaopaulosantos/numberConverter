@@ -16,7 +16,7 @@ h1{
 }
 #container{
     background-color: #cbdcdf;
-    max-width: 400px;
+    width: 400px;
     padding: 0 1rem;
     margin-top: 2rem;
 }
@@ -43,7 +43,7 @@ button{
     transition: .4s;
 }
 button:hover{
-    background-color: #59e2ae;
+    background-color: #0075ff;
 }
 #result{
     padding: 1rem 0;
