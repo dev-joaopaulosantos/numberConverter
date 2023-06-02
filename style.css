@@ -40,6 +40,10 @@ form{
 }
 button{
     cursor: pointer;
+    transition: .4s;
+}
+button:hover{
+    background-color: #59e2ae;
 }
 #result{
     padding: 1rem 0;
