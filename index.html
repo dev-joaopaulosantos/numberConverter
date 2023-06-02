@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Conversor de Números</title>
+  </head>
+  <body>
+    <div id="container" class="border-radius">
+      <h1>Conversor de Números</h1>
+
+      <!-- Caixa de seleção para escolher a direção da conversão -->
+      <form>
+        <label class="form-control">
+          <input
+            type="radio"
+            name="selectRadio"
+            id="romanToArabic"
+            value="romanToArabic"
+            checked
+          />
+          De romano para arábico
+        </label>
+
+        <label class="form-control">
+          <input
+            type="radio"
+            name="selectRadio"
+            id="arabicToRoman"
+            value="arabicToRoman"
+          />
+          De arábico para romano
+        </label>
+      </form>
+
+      <div id="container-input">
+        <input class="border-radius" type="text" id="number" placeholder="Digite um número" />
+        <button class="border-radius" onclick="converter()">Converter</button>
+      </div>
+
+      <p id="result"></p>
+    </div>
+  </body>
+</html>
