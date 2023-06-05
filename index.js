@@ -35,6 +35,7 @@ function romanToArabic(roman) {
         }
     }
 
+    console.log(arabic)
     return arabic;
 }
 
@@ -43,6 +44,11 @@ function converter() {
     const input = document.getElementById("number").value;
     const result = document.getElementById("result");
     const select = document.querySelector('input[name="selectRadio"]:checked').value;
+
+    if(input === ""){
+        alert("Entrada inválida!")
+        return
+    }
 
     if (select === "romanToArabic") {
         result.innerHTML =

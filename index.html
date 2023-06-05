@@ -9,10 +9,12 @@
     <title>Conversor de Números</title>
   </head>
   <body>
-    <div id="container" class="border-radius">
+    <header>
       <h1>Conversor de Números</h1>
+      <p>by João Paulo Santos</p>
+    </header>
 
-      <!-- Caixa de seleção para escolher a direção da conversão -->
+    <div id="container" class="border-radius">
       <form>
         <label class="form-control">
           <input
@@ -37,7 +39,12 @@
       </form>
 
       <div id="container-input">
-        <input class="border-radius" type="text" id="number" placeholder="Digite um número" />
+        <input
+          class="border-radius"
+          type="text"
+          id="number"
+          placeholder="Digite um número"
+        />
         <button class="border-radius" onclick="converter()">Converter</button>
       </div>
 

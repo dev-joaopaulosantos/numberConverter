@@ -5,20 +5,24 @@
     font-family: Helvetica;
 }
 body{
-    background-color: #384252;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #202124;
+}
+header{
+    padding: 1.5rem 0 1.5rem 1rem;
+    color: #E8EAED;
+    border-bottom: 1px solid #E8EAED;
+    margin-bottom: 1rem;
 }
 h1{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin: 1rem 0;
 }
 #container{
-    background-color: #cbdcdf;
+    background-color: #3c4043;
+    color: #E8EAED;
     width: 400px;
-    padding: 0 1rem;
-    margin-top: 2rem;
+    padding: 1rem;
+    margin: 0 auto;
 }
 form{
     display: flex;
@@ -35,20 +39,28 @@ form{
     justify-content: space-between;
 }
 #number, button{
-    height: 30px;
-    padding: .2rem;
+    padding: .7rem .5rem;
+    font-size: .9rem;
 }
 button{
+    background-color: #8ab4f8;
+    color: #202124;
     cursor: pointer;
+    border: none;
     transition: .4s;
 }
+#number{
+    background-color: #202124;
+    border: 1px solid #E8EAED;
+    color: #E8EAED;
+}
 button:hover{
-    background-color: #0075ff;
+    background-color: #7dafff;
 }
 #result{
     padding: 1rem 0;
     font-weight: bold;
 }
 .border-radius{
-    border-radius: 8px;
+    border-radius: 5px;
 }
