@@ -1,5 +1,5 @@
 
-// Função para converter números arábicos para romanos
+// função para converter números arábicos para romanos
 function arabicToRoman(num) {
     if (num < 1 || num > 3999) {
         return "Fora do intervalo permitido (1-3999)";
@@ -18,7 +18,7 @@ function arabicToRoman(num) {
     return roman;
 }
 
-// Função para converter números romanos para arábicos
+// função para converter números romanos para arábicos
 function romanToArabic(roman) {
     const romanNumerals = { M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90, L: 50, XL: 40, X: 10, IX: 9, V: 5, IV: 4, I: 1 };
 
@@ -39,7 +39,7 @@ function romanToArabic(roman) {
     return arabic;
 }
 
-// Função para lidar com o evento de conversão
+// função que mostra a conversão
 function converter() {
     const input = document.getElementById("number").value;
     const result = document.getElementById("result");
